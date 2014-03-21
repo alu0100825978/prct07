@@ -1,5 +1,5 @@
 
-valores=(10,100,1x10³,10000,100000,1000000,10000000,100000000,1000000000,10000000000 )
+valores=(10,100,1000,10000,100000,1000000,10000000,100000000,1000000000,10000000000 )
 y=0.0
 
 import modulo
@@ -11,4 +11,6 @@ for valor in valores:
 
 # A partir de 1000000000 la consola ya no calcula porque no tiene suficiente memoria para hacerlo.
 
-# Podemos definir los valores en notación científica porque al poner el siguiente valor solo añadimos un cero, por tanto podemos definirlo como 1x10; 1x10²; 1x10³;...  
+# Podemos definir los valores en notación científica porque al poner el siguiente valor solo añadimos un cero, por tanto podemos definirlo como 1x10; 1x10²; 1x10³;...  El problema es que la consola no reconoce el valor cuando lo escribimos en notacion científica.
+
+#La extensión .pyc sirve para saber el código de bytes que hemos compilado. La ventaja de esta extensión es que son más rápidos y mejoran el tiempo de ejecución del programa.
